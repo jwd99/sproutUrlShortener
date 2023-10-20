@@ -1,0 +1,29 @@
+
+<html><body>
+
+<h1>URL SHORTENER</h1>
+
+<p>
+    Make API calls to shorten urls.
+</p>
+
+<h3>API REQUEST EXAMPLES</h3>
+<hr>
+
+<p>
+    POST: /shorten
+    <br>
+    BODY: {"url": "https://www.google.com"}
+    <br>
+    RESPONSE: {originalUrl:"https://www.google.com", shortUrl: "https://localhost:8000/r309jn"}
+    <br>
+    -NOTE BODY URL must be a url that returns a valid 200 response. localhost may be on 3000 for others
+</p>
+<br>
+<p>
+    GET: /'shorten url goes here'
+    <br>
+    RESPONSE: redirect to original url
+</p>
+
+</body></html>
